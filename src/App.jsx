@@ -60,8 +60,8 @@ function App() {
   return (
     <>
       <main className={'font-redhat relative transition-all min-h-svh bg-[rgb(252,248,245)]'}>
-        <div className={confirmed ? 'sm:h-0 sm:overflow-hidden transition-all grid lg:h-auto z-10 lg:grid-cols-3 lg:px-28' : 'transition-all grid sm:grid-cols-1 lg:grid-cols-3  text-black lg:px-28'}>
-          <div className='p-4 grid sm:grid-cols-1 lg:grid-cols-3 lg:col-span-2 gap-y-8 lg:py-16 lg:px-32 lg:gap-x-6'>
+        <div className={confirmed ? 'sm:h-0 sm:overflow-hidden transition-all grid lg:h-auto z-10 lg:grid-cols-3 lg:px-4 md:px-4' : 'transition-all grid sm:grid-cols-1 lg:grid-cols-3  text-black lg:px-4'}>
+          <div className='p-4 grid sm:grid-cols-1 lg:grid-cols-3 lg:col-span-2 gap-y-8 lg:py-8 lg:px-8 lg:gap-x-6'>
             <h1 className='text-5xl font-extrabold lg:col-span-3'>Desserts</h1>
               <Item itemtype='Waffle' 
                     itemname='Waffle with Berries' 
